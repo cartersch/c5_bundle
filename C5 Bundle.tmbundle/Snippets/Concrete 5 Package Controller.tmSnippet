@@ -9,9 +9,9 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 
 class ${1:Name}Package extends Package {
 
-	protected $pkgHandle = '${2:package_name}';
-	protected $appVersionRequired = '5.6.0';
-	protected $pkgVersion = '1.0';
+	protected \$pkgHandle = '${2:package_name}';
+	protected \$appVersionRequired = '5.6.0';
+	protected \$pkgVersion = '1.0';
 
 	public function getPackageDescription() {
 		return t("${3:Package Description}");
