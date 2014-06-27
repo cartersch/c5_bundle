@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>defined('C5_EXECUTE')or die (_('Access Denied'));
+</string>
+	<key>name</key>
+	<string>Concrete 5 Defined</string>
+	<key>tabTrigger</key>
+	<string>c5_def</string>
+	<key>uuid</key>
+	<string>3EF26B5A-3330-4EE0-9D1E-90F007C054BF</string>
+</dict>
+</plist>

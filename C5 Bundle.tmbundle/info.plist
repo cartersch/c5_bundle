@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>pnegre.fpubrasryq</string>
+	<key>contactName</key>
+	<string>Carter Schoenfeld</string>
+	<key>description</key>
+	<string>A concrete 5 snippet bundle.</string>
+	<key>name</key>
+	<string>C5 Bundle</string>
+	<key>uuid</key>
+	<string>3E6CAA31-FC78-43C0-A2E6-9AA18D43EF95</string>
+</dict>
+</plist>

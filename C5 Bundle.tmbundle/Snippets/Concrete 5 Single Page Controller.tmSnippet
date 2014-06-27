@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+defined('C5_EXECUTE')or die(_("Access Denied."));
+
+Class ${1:SinglePageController}Controller extends Controller{
+
+    public function view(){
+    
+    }
+}
+?&gt;</string>
+	<key>name</key>
+	<string>Concrete 5 Single Page Controller</string>
+	<key>tabTrigger</key>
+	<string>c5_sp_controller</string>
+	<key>uuid</key>
+	<string>C43C16FA-08B5-4FB5-95C1-4497457A403F</string>
+</dict>
+</plist>

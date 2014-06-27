@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="ccm-ui"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="span16"&gt;
+      &lt;div class="ccm-pane"&gt;
+      	&lt;div class="ccm-pane-header"&gt;
+    		  &lt;h3&gt;${1:Dashboard Name}&lt;/h3&gt;
+        &lt;/div&gt;&lt;!--end ccm-pane-header--&gt;  
+    		&lt;div class="ccm-pane-body"&gt;
+            
+            ${2:code here}
+            
+            &lt;/div&gt;&lt;!--end ccm-pane-body--&gt;
+        &lt;/div&gt;&lt;!--end ccm-pane--&gt;
+    &lt;/div&gt;&lt;!--end span16--&gt;
+  &lt;/div&gt;&lt;!--end row--&gt;
+&lt;/div&gt;&lt;!--end ccm-ui--&gt;</string>
+	<key>name</key>
+	<string>Concrete 5 Dashboard</string>
+	<key>tabTrigger</key>
+	<string>c5_dash</string>
+	<key>uuid</key>
+	<string>52D3A8C7-DFB7-4C1B-B8DD-4AD15C6410AB</string>
+</dict>
+</plist>

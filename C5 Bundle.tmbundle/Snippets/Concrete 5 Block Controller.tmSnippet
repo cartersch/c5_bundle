@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+defined('C5_EXECUTE')or die(_("Access Denied."));
+
+class ${1:BlockName}BlockController extends BlockController{
+
+   var \$pobj;
+
+	protected \$btDescription = "Description of what this block does";
+	protected \$btName = "${2: Block Name}";
+	protected \$btTable = '${3:btBlockNameDbTable}';
+	protected \$btInterfaceWidth = "400";
+	protected \$btInterfaceHeight = "400";
+    
+    
+}
+?&gt;</string>
+	<key>name</key>
+	<string>Concrete 5 Block Controller</string>
+	<key>tabTrigger</key>
+	<string>c5_bl_controller</string>
+	<key>uuid</key>
+	<string>D9AB5D26-B9EF-4114-BFAD-A263F0068812</string>
+</dict>
+</plist>

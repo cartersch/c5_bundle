@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+
+defined('C5_EXECUTE') or die(_("Access Denied."));
+
+class ${1:Name}Package extends Package {
+
+	protected $pkgHandle = '${2:package_name}';
+	protected $appVersionRequired = '5.6.0';
+	protected $pkgVersion = '1.0';
+
+	public function getPackageDescription() {
+		return t("${3:Package Description}");
+	}
+
+	public function getPackageName() {
+		return t("${4:Package Name}");
+	}
+
+	public function install() {
+		\$pkg = parent::install();
+        
+      // install block
+      // BlockType::installBlockTypeFromPackage('block_name', \$pkg);
+      
+      
+      
+		// install single pages
+		// Loader::model('single_page');
+		// SinglePage::add('page_name', \$pkg);
+		
+	}
+
+	// public function upgrade() {
+	  // parent::upgrade();
+      //
+	  // add another block type
+	  // \$bt = BlockType::getByHandle('my_other_block');
+	  // if (!is_object(\$bt)) {
+	  //   BlockType::installBlockTypeFromPackage('my_other_block', \$this); 
+	  // }
+      //
+	  // add another single page
+	  // \$p = Page::getByPath('/page_name');
+	  // if (\$p-&gt;isError() || (!is_object(\$p))) {
+	  //  SinglePage::add('/page_name', \$this);
+	  // }
+      //
+      //        
+	// }
+
+}</string>
+	<key>name</key>
+	<string>Concrete 5 Package Controller</string>
+	<key>tabTrigger</key>
+	<string>c5_package</string>
+	<key>uuid</key>
+	<string>F8685950-C197-4C71-898E-80521F6B7036</string>
+</dict>
+</plist>
